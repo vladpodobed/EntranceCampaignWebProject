@@ -41,9 +41,11 @@
                                   commandOption="${command_option}" switchLangAction="${switch_lang_action}"/>
         </c:forEach>
     </table>
-    <br/>
-    <br/>
-    <a href="/">index page</a>
+</div>
+
+<div align="center">
+    <br/><br/>
+    <a href="/"><fmt:message key="page.index" bundle="${lang_current}"/></a>
 </div>
 
 </body>

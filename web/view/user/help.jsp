@@ -33,5 +33,10 @@
     </div>
 </div>
 
+<div align="center">
+    <br/><br/>
+    <a href="/"><fmt:message key="page.index" bundle="${lang_current}"/></a>
+</div>
+
 </body>
 </html>

@@ -70,9 +70,11 @@
             </form>
         </c:when>
     </c:choose>
-    <br/>
-    <br/>
-    <a href="/">index page</a>
+</div>
+
+<div align="center">
+    <br/><br/>
+    <a href="/"><fmt:message key="page.index" bundle="${lang_current}"/></a>
 </div>
 
 </body>

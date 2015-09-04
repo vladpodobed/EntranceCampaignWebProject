@@ -2,31 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ed078ef-d1d2-4b72-a31e-b7c7c3affbfc" name="Default" comment="finish">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/controller/Controller.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/controller/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/impl/UserDaoMySQL.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/impl/UserDaoMySQL.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/entity/Certificate.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/entity/Certificate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/DaoMySQLFactory$1.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/DaoMySQLFactory$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/resources/routing.properties" afterPath="$PROJECT_DIR$/target/classes/resources/routing.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/page/UserPage.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/page/UserPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/parameter/UserParameter.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/parameter/UserParameter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/page/SharedPage.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/page/SharedPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/parameter/SharedParameter.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/parameter/SharedParameter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/DaoMySQLFactory.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/DaoMySQLFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/DaoException.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/DaoException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/ConnectionPool.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/ConnectionPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/entity/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/resources/i18n_ru.properties" afterPath="$PROJECT_DIR$/target/classes/resources/i18n_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/QueryOption.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/QueryOption.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/entity/Faculty.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/entity/Faculty.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/exception/TaskException.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/exception/TaskException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/impl/CertificateDaoMySQL.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/impl/CertificateDaoMySQL.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/logic/LogicException.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/logic/LogicException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/impl/FacultyDaoMySQL.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/dao/impl/FacultyDaoMySQL.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/entity/Discipline.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/entity/Discipline.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/admin/faculty_statistics.jsp" afterPath="$PROJECT_DIR$/web/view/admin/faculty_statistics.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/user/help.jsp" afterPath="$PROJECT_DIR$/web/view/user/help.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/i18n_en.properties" afterPath="$PROJECT_DIR$/src/resources/i18n_en.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/resources/i18n_en.properties" afterPath="$PROJECT_DIR$/target/classes/resources/i18n_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/by/epam/training/task06/parameter/FacultyParameter.class" afterPath="$PROJECT_DIR$/target/classes/by/epam/training/task06/parameter/FacultyParameter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/resources/i18n_en.properties" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/resources/i18n_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/i18n_ru.properties" afterPath="$PROJECT_DIR$/src/resources/i18n_ru.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/resources/i18n_ru.properties" afterPath="$PROJECT_DIR$/target/classes/resources/i18n_ru.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/resources/i18n_ru.properties" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/resources/i18n_ru.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/user/profile.jsp" afterPath="$PROJECT_DIR$/web/view/user/profile.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/user/register_at_faculty.jsp" afterPath="$PROJECT_DIR$/web/view/user/register_at_faculty.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/admin/select_abiturient.jsp" afterPath="$PROJECT_DIR$/web/view/admin/select_abiturient.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/user/select_faculty.jsp" afterPath="$PROJECT_DIR$/web/view/user/select_faculty.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/user/sign_up.jsp" afterPath="$PROJECT_DIR$/web/view/user/sign_up.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/user/university_structure.jsp" afterPath="$PROJECT_DIR$/web/view/user/university_structure.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/view/user/update_profile.jsp" afterPath="$PROJECT_DIR$/web/view/user/update_profile.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EntranceCampaignWebProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,111 +86,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DisciplineDaoMySQL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/dao/impl/DisciplineDaoMySQL.java">
+      <file leaf-file-name="select_abiturient.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/view/admin/select_abiturient.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2853" max-vertical-offset="3456">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <marker date="1436344429138" expanded="true" signature="725:794" placeholder="INSERT INTO ..." />
-                <marker date="1436344429138" expanded="true" signature="842:899" placeholder="SELECT * FRO..discipline..." />
-                <marker date="1436344429138" expanded="true" signature="949:1025" placeholder="UPDATE unive..." />
-                <marker date="1436344429138" expanded="true" signature="1075:1131" placeholder="DELETE FROM ..." />
-                <marker date="1436344429138" expanded="true" signature="1183:1218" placeholder="SELECT * FRO..discipline..." />
-                <marker date="1436344429138" expanded="true" signature="1263:1315" placeholder="SELECT MAX(d..discipline..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FacultyDaoMySQL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/dao/impl/FacultyDaoMySQL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2907" max-vertical-offset="3510">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <marker date="1436614034714" expanded="true" signature="704:767" placeholder="INSERT INTO ..." />
-                <marker date="1436614034714" expanded="true" signature="812:863" placeholder="SELECT * FRO..faculty..." />
-                <marker date="1436614034714" expanded="true" signature="910:979" placeholder="UPDATE unive..." />
-                <marker date="1436614034714" expanded="true" signature="1026:1076" placeholder="DELETE FROM ..." />
-                <marker date="1436614034714" expanded="true" signature="1126:1158" placeholder="SELECT * FRO..faculty..." />
-                <marker date="1436614034714" expanded="true" signature="1203:1249" placeholder="SELECT MAX(f..faculty..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDaoMySQL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/dao/impl/UserDaoMySQL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3375" max-vertical-offset="3978">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding>
-                <marker date="1436614034698" expanded="true" signature="799:905" placeholder="INSERT INTO ..." />
-                <marker date="1436614034698" expanded="true" signature="947:997" placeholder="SELECT * FRO..site_user..." />
-                <marker date="1436614034698" expanded="true" signature="1041:1200" placeholder="UPDATE unive..." />
-                <marker date="1436614034698" expanded="true" signature="1247:1281" placeholder="SELECT * FRO..site_user..." />
-                <marker date="1436614034698" expanded="true" signature="1326:1371" placeholder="SELECT MAX(u..site_user..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectionPool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/dao/ConnectionPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1202" max-vertical-offset="1818">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="24" />
+            <state vertical-scroll-proportion="-16.666666" vertical-offset="414" max-vertical-offset="1026">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DaoException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/dao/DaoException.java">
+      <file leaf-file-name="help.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/view/user/help.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="504">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state vertical-scroll-proportion="85.4" vertical-offset="239" max-vertical-offset="846">
+              <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DaoMySQL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/dao/DaoMySQL.java">
+      <file leaf-file-name="profile.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/view/user/profile.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="450">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state vertical-scroll-proportion="-52.0" vertical-offset="0" max-vertical-offset="1548">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DaoMySQLFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/dao/DaoMySQLFactory.java">
+      <file leaf-file-name="update_profile.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/view/user/update_profile.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="774">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state vertical-scroll-proportion="-15.333333" vertical-offset="396" max-vertical-offset="972">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DaoMySQLType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/dao/DaoMySQLType.java">
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/view/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="216">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="4500">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueryOption.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/dao/QueryOption.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26948053" vertical-offset="14" max-vertical-offset="954">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="414">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register_at_faculty.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/view/user/register_at_faculty.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.333333" vertical-offset="324" max-vertical-offset="900">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="select_faculty.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/view/user/select_faculty.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.481482" vertical-offset="203" max-vertical-offset="792">
+              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign_up.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/view/user/sign_up.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-29.333334" vertical-offset="0" max-vertical-offset="972">
+              <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="university_structure.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/view/user/university_structure.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="738">
+              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -215,15 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/page/ShowSelectFaculty.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/page/ShowProfile.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/page/ShowIndex.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/page/ShowHelp.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/page/ShowFacultyStatistics.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/admin/AdminSelectAbiturient.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/admin/AdminFinishEntranceCampaign.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/admin/AdminSelectFacultyForStatistics.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/user/RegisterAtFaculty.java" />
         <option value="$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/user/SelectFaculty.java" />
         <option value="$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/user/LogInUser.java" />
         <option value="$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/user/SignUpUser.java" />
@@ -261,11 +234,20 @@
         <option value="$PROJECT_DIR$/src/by/epam/training/task06/logic/LogicHelp.java" />
         <option value="$PROJECT_DIR$/src/by/epam/training/task06/logic/UrlToCommandMapping.java" />
         <option value="$PROJECT_DIR$/src/by/epam/training/task06/logic/command/CommandHandler.java" />
-        <option value="$PROJECT_DIR$/src/resources/i18n_en.properties" />
-        <option value="$PROJECT_DIR$/src/resources/i18n_ru.properties" />
         <option value="$PROJECT_DIR$/web/view/header.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/HibernateExample/pom.xml" />
+        <option value="$PROJECT_DIR$/src/resources/i18n_en.properties" />
+        <option value="$PROJECT_DIR$/src/resources/i18n_ru.properties" />
+        <option value="$PROJECT_DIR$/web/view/admin/faculty_statistics.jsp" />
+        <option value="$PROJECT_DIR$/web/view/user/help.jsp" />
+        <option value="$PROJECT_DIR$/web/view/admin/select_abiturient.jsp" />
+        <option value="$PROJECT_DIR$/web/view/user/profile.jsp" />
+        <option value="$PROJECT_DIR$/web/view/user/register_at_faculty.jsp" />
+        <option value="$PROJECT_DIR$/web/view/user/select_faculty.jsp" />
+        <option value="$PROJECT_DIR$/web/view/user/sign_up.jsp" />
+        <option value="$PROJECT_DIR$/web/view/user/university_structure.jsp" />
+        <option value="$PROJECT_DIR$/web/view/user/update_profile.jsp" />
       </list>
     </option>
   </component>
@@ -330,9 +312,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="49" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1317" />
-    <option name="height" value="772" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -359,6 +341,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -377,10 +361,178 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="error" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resource Bundle 'i18n'" />
+              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EntranceCampaignWebProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task06" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,7 +544,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1273,6 +1425,7 @@
       <workItem from="1438332467190" duration="1408000" />
       <workItem from="1438514505586" duration="309000" />
       <workItem from="1438687767192" duration="258000" />
+      <workItem from="1441349882567" duration="2247000" />
     </task>
     <task id="LOCAL-00001" summary="entities development done">
       <created>1432075641075</created>
@@ -1326,7 +1479,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="533186000" />
+    <option name="totallyTimeSpent" value="535433000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1349,40 +1502,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="-4" width="1317" height="772" extended-state="6" />
+    <frame x="49" y="24" width="1317" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3996853" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.85139316" sideWeight="0.5003796" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296617" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27143982" sideWeight="0.49769586" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7383901" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26199841" sideWeight="0.50230414" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21636507" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.9040248" sideWeight="0.49886104" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27143982" sideWeight="0.49769586" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26199841" sideWeight="0.50230414" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7770898" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35913312" sideWeight="0.49886104" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299293" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1462,119 +1615,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/by/epam/training/task06/dao/DaoDisciplineTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.35064936" vertical-offset="432" max-vertical-offset="1080">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/by/epam/training/task06/dao/DaoUserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/user/register_at_faculty.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/user/sign_up.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46875" vertical-offset="198" max-vertical-offset="882">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/user/help.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3125" vertical-offset="180" max-vertical-offset="756">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/view/error/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/admin/AdminFinishEntranceCampaign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="2574">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/admin/AdminSelectAbiturient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1503" max-vertical-offset="2106">
-          <caret line="77" column="13" selection-start-line="76" selection-start-column="9" selection-end-line="77" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/admin/AdminSelectFacultyForSelectAbiturient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="477" max-vertical-offset="1080">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/logic/command/impl/admin/AdminSelectFacultyForStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="428" max-vertical-offset="1044">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/util/tag/SelectAbiturientTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="1908">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/parameter/FacultyParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/parameter/PageParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/parameter/SharedParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/parameter/UserParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/page/UserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/page/SharedPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
@@ -1747,14 +1787,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3051" max-vertical-offset="3654">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <marker date="1436613897118" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1436613897118" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..certificate..." />
-            <marker date="1436613897118" expanded="true" signature="-1:-1" placeholder="UPDATE unive..." />
-            <marker date="1436613897118" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1436613897118" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..certificate..." />
-            <marker date="1436613897118" expanded="true" signature="-1:-1" placeholder="SELECT MAX(c..certificate..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1763,12 +1796,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2853" max-vertical-offset="3456">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
-            <marker date="1436344429138" expanded="true" signature="725:794" placeholder="INSERT INTO ..." />
-            <marker date="1436344429138" expanded="true" signature="842:899" placeholder="SELECT * FRO..discipline..." />
-            <marker date="1436344429138" expanded="true" signature="949:1025" placeholder="UPDATE unive..." />
-            <marker date="1436344429138" expanded="true" signature="1075:1131" placeholder="DELETE FROM ..." />
-            <marker date="1436344429138" expanded="true" signature="1183:1218" placeholder="SELECT * FRO..discipline..." />
-            <marker date="1436344429138" expanded="true" signature="1263:1315" placeholder="SELECT MAX(d..discipline..." />
+            <marker date="1436344429138" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1436344429138" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..discipline..." />
+            <marker date="1436344429138" expanded="true" signature="-1:-1" placeholder="UPDATE unive..." />
+            <marker date="1436344429138" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1436344429138" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..discipline..." />
+            <marker date="1436344429138" expanded="true" signature="-1:-1" placeholder="SELECT MAX(d..discipline..." />
           </folding>
         </state>
       </provider>
@@ -1778,12 +1811,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2907" max-vertical-offset="3510">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
-            <marker date="1436614034714" expanded="true" signature="704:767" placeholder="INSERT INTO ..." />
-            <marker date="1436614034714" expanded="true" signature="812:863" placeholder="SELECT * FRO..faculty..." />
-            <marker date="1436614034714" expanded="true" signature="910:979" placeholder="UPDATE unive..." />
-            <marker date="1436614034714" expanded="true" signature="1026:1076" placeholder="DELETE FROM ..." />
-            <marker date="1436614034714" expanded="true" signature="1126:1158" placeholder="SELECT * FRO..faculty..." />
-            <marker date="1436614034714" expanded="true" signature="1203:1249" placeholder="SELECT MAX(f..faculty..." />
+            <marker date="1436614034714" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1436614034714" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..faculty..." />
+            <marker date="1436614034714" expanded="true" signature="-1:-1" placeholder="UPDATE unive..." />
+            <marker date="1436614034714" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1436614034714" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..faculty..." />
+            <marker date="1436614034714" expanded="true" signature="-1:-1" placeholder="SELECT MAX(f..faculty..." />
           </folding>
         </state>
       </provider>
@@ -1793,11 +1826,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="3375" max-vertical-offset="3978">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
-            <marker date="1436614034698" expanded="true" signature="799:905" placeholder="INSERT INTO ..." />
-            <marker date="1436614034698" expanded="true" signature="947:997" placeholder="SELECT * FRO..site_user..." />
-            <marker date="1436614034698" expanded="true" signature="1041:1200" placeholder="UPDATE unive..." />
-            <marker date="1436614034698" expanded="true" signature="1247:1281" placeholder="SELECT * FRO..site_user..." />
-            <marker date="1436614034698" expanded="true" signature="1326:1371" placeholder="SELECT MAX(u..site_user..." />
+            <marker date="1436614034698" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1436614034698" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..site_user..." />
+            <marker date="1436614034698" expanded="true" signature="-1:-1" placeholder="UPDATE unive..." />
+            <marker date="1436614034698" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..site_user..." />
+            <marker date="1436614034698" expanded="true" signature="-1:-1" placeholder="SELECT MAX(u..site_user..." />
           </folding>
         </state>
       </provider>
@@ -1844,8 +1877,155 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/epam/training/task06/dao/QueryOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26948053" vertical-offset="14" max-vertical-offset="954">
+        <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="954">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/i18n_ru.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47285464" vertical-offset="0" max-vertical-offset="1008">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/i18n_en.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25218913" vertical-offset="0" max-vertical-offset="1008">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/error/404.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/error/500.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/error/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/99d82442/7fb8c11c-4623-4f71-8485-0047bfc247d4/university..site_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/admin/faculty_statistics.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.666666" vertical-offset="378" max-vertical-offset="990">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/admin/select_abiturient.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.666666" vertical-offset="414" max-vertical-offset="1026">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4500">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/user/update_profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.333333" vertical-offset="396" max-vertical-offset="972">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/user/university_structure.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="738">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/user/sign_up.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.333334" vertical-offset="0" max-vertical-offset="972">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/user/select_faculty.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.481482" vertical-offset="203" max-vertical-offset="792">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/user/register_at_faculty.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.333333" vertical-offset="324" max-vertical-offset="900">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/user/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-52.0" vertical-offset="0" max-vertical-offset="1548">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/view/user/help.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="85.4" vertical-offset="239" max-vertical-offset="846">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
           <folding />
         </state>
       </provider>

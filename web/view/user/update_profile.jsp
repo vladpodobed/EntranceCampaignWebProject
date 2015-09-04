@@ -16,29 +16,33 @@
             <form action="${update_profile_action}" method="post">
                 <div class="form-group input-group">
                     <span class="input-group-addon">A</span>
-                    <input lang="en ru" type="text" name="name" class="form-control"
+                    <input lang="en ru" type="text" name="name" maxlength="150" class="form-control"
                            placeholder="${sessionScope.user.name}"/>
                 </div>
                 <div class="form-group input-group">
                     <span class="input-group-addon">@</span>
-                    <input type="email" name="email" class="form-control" placeholder="${sessionScope.user.email}"/>
+                    <input type="email" name="email" maxlength="150" class="form-control" placeholder="${sessionScope.user.email}"/>
                 </div>
                 <div class="form-group input-group">
                     <span class="input-group-addon">#</span>
-                    <input type="password" name="password" class="form-control"
+                    <input type="password" name="password" maxlength="45" class="form-control"
                            placeholder="${sessionScope.user.password}"/>
                 </div>
                 <input type="hidden" name="command" value="update_profile">
-                <%--<input type="hidden" name="command_option" value="${command_option}">--%>
                 <input type="hidden" name="switch_lang_action" value="${switch_lang_action}"/>
                 <button type="submit" class="btn btn-success">
                     <fmt:message key="user.update_profile" bundle="${lang_current}"/>
                 </button>
                 <hr/>
             </form>
-            <a href="/">index page</a>
         </div>
     </div>
 </div>
+
+<div align="center">
+    <br/><br/>
+    <a href="/"><fmt:message key="page.index" bundle="${lang_current}"/></a>
+</div>
+
 </body>
 </html>
