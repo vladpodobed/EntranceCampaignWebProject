@@ -1,17 +1,17 @@
 package by.epam.training.task06.logic.command.impl.user;
 
-import by.epam.training.task06.dao.QueryOption;
+import by.epam.training.task06.dao.query.QueryOption;
 import by.epam.training.task06.entity.Discipline;
 import by.epam.training.task06.entity.User;
-import by.epam.training.task06.logic.LogicException;
-import by.epam.training.task06.logic.LogicHelp;
-import by.epam.training.task06.logic.UrlToCommandMapping;
+import by.epam.training.task06.exception.LogicException;
+import by.epam.training.task06.logic.help.LogicHelp;
+import by.epam.training.task06.logic.help.UrlToCommandMapping;
 import by.epam.training.task06.logic.command.Command;
 import by.epam.training.task06.page.UserPage;
 import by.epam.training.task06.parameter.FacultyParameter;
 import by.epam.training.task06.parameter.PageParameter;
 import by.epam.training.task06.parameter.UserParameter;
-import by.epam.training.task06.util.daoutil.FacultyDaoQuery;
+import by.epam.training.task06.constants.query_template.FacultyDaoQuery;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;

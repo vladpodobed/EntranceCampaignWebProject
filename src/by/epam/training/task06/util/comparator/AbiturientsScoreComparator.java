@@ -1,7 +1,7 @@
 package by.epam.training.task06.util.comparator;
 
 import by.epam.training.task06.entity.User;
-import by.epam.training.task06.logic.LogicHelp;
+import by.epam.training.task06.logic.help.LogicHelp;
 
 import java.util.Comparator;
 

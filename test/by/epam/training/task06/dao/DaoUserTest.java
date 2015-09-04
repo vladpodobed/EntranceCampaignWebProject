@@ -1,9 +1,11 @@
 package by.epam.training.task06.dao;
 
-import by.epam.training.task06.dao.impl.UserDaoMySQL;
+import by.epam.training.task06.dao.impl.UserDAO;
+import by.epam.training.task06.dao.query.QueryOption;
 import by.epam.training.task06.entity.User;
+import by.epam.training.task06.exception.DaoException;
 import by.epam.training.task06.parameter.UserParameter;
-import by.epam.training.task06.util.daoutil.UserDaoQuery;
+import by.epam.training.task06.constants.query_template.UserDaoQuery;
 import org.junit.Test;
 
 import java.util.List;
@@ -21,7 +23,7 @@ public class DaoUserTest {
     @Test
     public void daoLoadAllTest() {
         try {
-            users = UserDaoMySQL.getInstance().loadAll();
+            users = UserDAO.getInstance().loadAll();
         } catch (DaoException e) {
             fail("LoadAll FacultyDaoMySQL method fails. Reason - " + e);
         }
@@ -32,7 +34,7 @@ public class DaoUserTest {
     public void daoReadTest() {
         int id = 3;
         try {
-            user = UserDaoMySQL.getInstance().read(id);
+            user = UserDAO.getInstance().read(id);
         } catch (DaoException e) {
             fail("LoadAll FacultyDaoMySQL method fails. Reason - " + e);
         }
@@ -49,7 +51,7 @@ public class DaoUserTest {
         option.addParameter(facultyName);
 
         try {
-            users = UserDaoMySQL.getInstance().select(option);
+            users = UserDAO.getInstance().select(option);
         } catch (DaoException e) {
             fail("LoadAll FacultyDaoMySQL method fails. Reason - " + e);
         }

@@ -1,6 +1,6 @@
 package by.epam.training.task06.page;
 
-import by.epam.training.task06.util.routingutil.RoutingUtil;
+import by.epam.training.task06.util.routing.RoutingUtil;
 
 /**
  * <p>

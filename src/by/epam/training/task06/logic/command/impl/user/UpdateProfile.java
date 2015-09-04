@@ -1,17 +1,20 @@
 package by.epam.training.task06.logic.command.impl.user;
 
 
+import by.epam.training.task06.connection.ConnectionPool;
 import by.epam.training.task06.dao.*;
-import by.epam.training.task06.dao.impl.UserDaoMySQL;
+import by.epam.training.task06.dao.impl.UserDAO;
+import by.epam.training.task06.dao.query.QueryOption;
 import by.epam.training.task06.entity.User;
-import by.epam.training.task06.logic.LogicException;
-import by.epam.training.task06.logic.UrlToCommandMapping;
+import by.epam.training.task06.exception.DaoException;
+import by.epam.training.task06.exception.LogicException;
+import by.epam.training.task06.logic.help.UrlToCommandMapping;
 import by.epam.training.task06.logic.command.Command;
 import by.epam.training.task06.page.SharedPage;
 import by.epam.training.task06.page.UserPage;
 import by.epam.training.task06.parameter.PageParameter;
 import by.epam.training.task06.parameter.UserParameter;
-import by.epam.training.task06.util.daoutil.UserDaoQuery;
+import by.epam.training.task06.constants.query_template.UserDaoQuery;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -73,7 +76,7 @@ public class UpdateProfile implements Command {
         }
 
         try {
-            DaoMySQL<User> dao = DaoMySQLFactory.getInstance().getDao(DaoMySQLType.USER);
+            DAO<User> dao = DAOFactory.getInstance().getDao(DAOType.USER);
             QueryOption option = new QueryOption();
             option.setQueryTemplate(UserDaoQuery.READ_USER_BY_EMAIL_AND_PASSWORD);
             option.addParameter(email);
@@ -87,7 +90,7 @@ public class UpdateProfile implements Command {
 
     private void updateUser(User user) throws LogicException {
         try {
-            UserDaoMySQL.getInstance().update(user);
+            UserDAO.getInstance().update(user);
         } catch (DaoException e) {
             throw new LogicException("Can't update user! Reason - ", e);
         } finally {

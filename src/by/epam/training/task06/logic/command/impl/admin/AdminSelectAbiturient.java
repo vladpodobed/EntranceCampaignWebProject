@@ -1,20 +1,20 @@
 package by.epam.training.task06.logic.command.impl.admin;
 
-import by.epam.training.task06.dao.ConnectionPool;
-import by.epam.training.task06.dao.DaoException;
-import by.epam.training.task06.dao.QueryOption;
-import by.epam.training.task06.dao.impl.DisciplineDaoMySQL;
-import by.epam.training.task06.dao.impl.UserDaoMySQL;
+import by.epam.training.task06.connection.ConnectionPool;
+import by.epam.training.task06.exception.DaoException;
+import by.epam.training.task06.dao.query.QueryOption;
+import by.epam.training.task06.dao.impl.DisciplineDAO;
+import by.epam.training.task06.dao.impl.UserDAO;
 import by.epam.training.task06.entity.Discipline;
 import by.epam.training.task06.entity.User;
-import by.epam.training.task06.logic.LogicException;
+import by.epam.training.task06.exception.LogicException;
 import by.epam.training.task06.logic.command.Command;
 import by.epam.training.task06.page.AdminPage;
 import by.epam.training.task06.parameter.FacultyParameter;
 import by.epam.training.task06.parameter.PageParameter;
 import by.epam.training.task06.parameter.UserParameter;
-import by.epam.training.task06.util.daoutil.DisciplineDaoQuery;
-import by.epam.training.task06.util.daoutil.UserDaoQuery;
+import by.epam.training.task06.constants.query_template.DisciplineDaoQuery;
+import by.epam.training.task06.constants.query_template.UserDaoQuery;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
@@ -40,7 +40,7 @@ public class AdminSelectAbiturient implements Command {
 
         List<Discipline> userDisciplines;
         try {
-            userDisciplines = DisciplineDaoMySQL.getInstance().select(facultyIdDisciplineOption);
+            userDisciplines = DisciplineDAO.getInstance().select(facultyIdDisciplineOption);
         } catch (DaoException e) {
             throw new LogicException("User disciplines extraction error! Reason - ", e);
         }
@@ -58,7 +58,7 @@ public class AdminSelectAbiturient implements Command {
             statusAndFacultyNameUserOption.addParameter(facultyName);
 
             try {
-                abiturients = UserDaoMySQL.getInstance().select(statusAndFacultyNameUserOption);
+                abiturients = UserDAO.getInstance().select(statusAndFacultyNameUserOption);
             } catch (DaoException e) {
                 throw new LogicException("Candidates read error! Reason - " + e.getMessage());
             }
@@ -66,7 +66,7 @@ public class AdminSelectAbiturient implements Command {
             for(User abiturient: abiturients) {
                 abiturient.setStatus(UserParameter.ABITURIENT_STATUS);
                 try {
-                    UserDaoMySQL.getInstance().update(abiturient);
+                    UserDAO.getInstance().update(abiturient);
                 } catch (DaoException e) {
                     throw new LogicException("Abiturient update error! Reason - " + e.getMessage());
                 }
@@ -76,14 +76,14 @@ public class AdminSelectAbiturient implements Command {
 
         User user;
         try {
-            user = UserDaoMySQL.getInstance().read(candidateId);
+            user = UserDAO.getInstance().read(candidateId);
         } catch (DaoException e) {
             throw new LogicException("Candidate read error! Reason - " + e.getMessage());
         }
 
         user.setStatus(UserParameter.ABITURIENT_STATUS);
         try {
-            UserDaoMySQL.getInstance().update(user);
+            UserDAO.getInstance().update(user);
         } catch (DaoException e) {
             throw new LogicException("Candidate update error! Reason - " + e.getMessage());
         }
@@ -95,7 +95,7 @@ public class AdminSelectAbiturient implements Command {
 
         List<User> candidates;
         try {
-            candidates = UserDaoMySQL.getInstance().select(statusAndFacultyIdUserOption);
+            candidates = UserDAO.getInstance().select(statusAndFacultyIdUserOption);
         } catch (DaoException e) {
             throw new LogicException("Can't get candidates! Reason - " + e.getMessage());
         } finally {

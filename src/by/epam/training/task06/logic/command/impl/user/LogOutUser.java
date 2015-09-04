@@ -1,7 +1,7 @@
 package by.epam.training.task06.logic.command.impl.user;
 
 import by.epam.training.task06.logic.command.Command;
-import by.epam.training.task06.logic.LogicException;
+import by.epam.training.task06.exception.LogicException;
 import by.epam.training.task06.page.SharedPage;
 import by.epam.training.task06.parameter.UserParameter;
 

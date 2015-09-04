@@ -1,7 +1,7 @@
 package by.epam.training.task06.logic.command.impl.user;
 
-import by.epam.training.task06.logic.CommandOptionToActionMapping;
-import by.epam.training.task06.logic.LogicException;
+import by.epam.training.task06.logic.help.CommandOptionToActionMapping;
+import by.epam.training.task06.exception.LogicException;
 import by.epam.training.task06.logic.command.Command;
 import by.epam.training.task06.logic.command.impl.admin.AdminSelectFacultyForSelectAbiturient;
 import by.epam.training.task06.logic.command.impl.admin.AdminSelectFacultyForStatistics;

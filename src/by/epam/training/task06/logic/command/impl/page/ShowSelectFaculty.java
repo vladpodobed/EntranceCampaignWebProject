@@ -1,12 +1,12 @@
 package by.epam.training.task06.logic.command.impl.page;
 
-import by.epam.training.task06.dao.ConnectionPool;
-import by.epam.training.task06.dao.DaoException;
-import by.epam.training.task06.dao.impl.FacultyDaoMySQL;
+import by.epam.training.task06.connection.ConnectionPool;
+import by.epam.training.task06.exception.DaoException;
+import by.epam.training.task06.dao.impl.FacultyDAO;
 import by.epam.training.task06.entity.Faculty;
-import by.epam.training.task06.logic.LogicException;
-import by.epam.training.task06.logic.CommandOptionToActionMapping;
-import by.epam.training.task06.logic.UrlToCommandMapping;
+import by.epam.training.task06.exception.LogicException;
+import by.epam.training.task06.logic.help.CommandOptionToActionMapping;
+import by.epam.training.task06.logic.help.UrlToCommandMapping;
 import by.epam.training.task06.logic.command.Command;
 import by.epam.training.task06.page.UserPage;
 import by.epam.training.task06.parameter.FacultyParameter;
@@ -25,7 +25,7 @@ public class ShowSelectFaculty implements Command {
     public String execute(HttpServletRequest request) throws LogicException {
         List<Faculty> faculties;
         try {
-            faculties = FacultyDaoMySQL.getInstance().loadAll();
+            faculties = FacultyDAO.getInstance().loadAll();
         } catch (DaoException e) {
             throw new LogicException("Can't load faculties list!");
         } finally {

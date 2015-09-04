@@ -1,15 +1,17 @@
 package by.epam.training.task06.logic.command.impl.admin;
 
 import by.epam.training.task06.dao.*;
-import by.epam.training.task06.dao.impl.FacultyDaoMySQL;
+import by.epam.training.task06.dao.impl.FacultyDAO;
+import by.epam.training.task06.dao.query.QueryOption;
 import by.epam.training.task06.entity.Faculty;
 import by.epam.training.task06.entity.User;
-import by.epam.training.task06.logic.LogicException;
+import by.epam.training.task06.exception.DaoException;
+import by.epam.training.task06.exception.LogicException;
 import by.epam.training.task06.logic.command.Command;
 import by.epam.training.task06.page.SharedPage;
 import by.epam.training.task06.parameter.UserParameter;
 import by.epam.training.task06.util.comparator.AbiturientsScoreComparator;
-import by.epam.training.task06.util.daoutil.UserDaoQuery;
+import by.epam.training.task06.constants.query_template.UserDaoQuery;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -41,16 +43,16 @@ public class AdminFinishEntranceCampaign implements Command {
             throw new LogicException("Can't get session!");
         }
 
-        DaoMySQL<User> userDao;
+        DAO<User> userDao;
         try {
-            userDao = DaoMySQLFactory.getInstance().getDao(DaoMySQLType.USER);
+            userDao = DAOFactory.getInstance().getDao(DAOType.USER);
         } catch (DaoException e) {
             throw new LogicException("Can't get dao object! Reason - " + e.getMessage());
         }
 
         List<Faculty> faculties;
         try {
-            faculties = FacultyDaoMySQL.getInstance().loadAll();
+            faculties = FacultyDAO.getInstance().loadAll();
         } catch (DaoException e) {
             throw new LogicException("Can't load all faculties! Reason - " + e.getMessage());
         }
@@ -127,7 +129,7 @@ public class AdminFinishEntranceCampaign implements Command {
      * @param status
      * @throws DaoException
      */
-    private void updateUsersStatus(DaoMySQL dao, List<User> users, String status) throws DaoException {
+    private void updateUsersStatus(DAO dao, List<User> users, String status) throws DaoException {
         for (User user : users) {
             user.setStatus(status);
             dao.update(user);

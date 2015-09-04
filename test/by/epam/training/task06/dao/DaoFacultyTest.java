@@ -1,7 +1,8 @@
 package by.epam.training.task06.dao;
 
-import by.epam.training.task06.dao.impl.FacultyDaoMySQL;
+import by.epam.training.task06.dao.impl.FacultyDAO;
 import by.epam.training.task06.entity.Faculty;
+import by.epam.training.task06.exception.DaoException;
 import org.junit.Test;
 
 import java.util.List;
@@ -19,7 +20,7 @@ public class DaoFacultyTest {
     @Test
     public void daoLoadAllTest() {
         try {
-            faculties = FacultyDaoMySQL.getInstance().loadAll();
+            faculties = FacultyDAO.getInstance().loadAll();
         } catch (DaoException e) {
             fail("LoadAll FacultyDaoMySQL method fails. Reason - " + e);
         }
@@ -32,7 +33,7 @@ public class DaoFacultyTest {
         int id = 1;
         try {
 
-            faculty = FacultyDaoMySQL.getInstance().read(id);
+            faculty = FacultyDAO.getInstance().read(id);
         } catch (DaoException e) {
             fail("LoadAll FacultyDaoMySQL method fails. Reason - " + e);
         }

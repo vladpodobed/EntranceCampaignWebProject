@@ -1,8 +1,10 @@
 package by.epam.training.task06.dao;
 
-import by.epam.training.task06.dao.impl.DisciplineDaoMySQL;
+import by.epam.training.task06.dao.impl.DisciplineDAO;
+import by.epam.training.task06.dao.query.QueryOption;
 import by.epam.training.task06.entity.Discipline;
-import by.epam.training.task06.util.daoutil.DisciplineDaoQuery;
+import by.epam.training.task06.exception.DaoException;
+import by.epam.training.task06.constants.query_template.DisciplineDaoQuery;
 import org.junit.Test;
 
 import java.util.List;
@@ -18,7 +20,7 @@ public class DaoDisciplineTest {
     @Test
     public void daoReDAllTest() {
         try {
-            disciplines = DisciplineDaoMySQL.getInstance().loadAll();
+            disciplines = DisciplineDAO.getInstance().loadAll();
         } catch (DaoException e) {
             fail("ReadAll FacultyDaoMySQL method fails. Reason - " + e);
         }
@@ -29,7 +31,7 @@ public class DaoDisciplineTest {
     public void daoReadTest() {
         int id = 1;
         try {
-            discipline = DisciplineDaoMySQL.getInstance().read(id);
+            discipline = DisciplineDAO.getInstance().read(id);
         } catch (DaoException e) {
             fail("Read DisciplineDaoMySQL method fails. Reason - " + e);
         }
@@ -43,7 +45,7 @@ public class DaoDisciplineTest {
         option.setQueryTemplate(DisciplineDaoQuery.READ_DISCIPLINES_BY_FACULTY_NAME);
         option.addParameter(faculty_name);
         try {
-            disciplines = DisciplineDaoMySQL.getInstance().select(option);
+            disciplines = DisciplineDAO.getInstance().select(option);
         } catch (DaoException e) {
             fail("ReadBy FacultyDaoMySQL method fails. Reason - " + e);
         }

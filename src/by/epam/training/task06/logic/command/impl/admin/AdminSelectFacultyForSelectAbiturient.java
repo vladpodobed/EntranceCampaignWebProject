@@ -1,19 +1,19 @@
 package by.epam.training.task06.logic.command.impl.admin;
 
-import by.epam.training.task06.dao.DaoException;
-import by.epam.training.task06.dao.QueryOption;
-import by.epam.training.task06.dao.impl.UserDaoMySQL;
+import by.epam.training.task06.exception.DaoException;
+import by.epam.training.task06.dao.query.QueryOption;
+import by.epam.training.task06.dao.impl.UserDAO;
 import by.epam.training.task06.entity.Discipline;
 import by.epam.training.task06.entity.User;
-import by.epam.training.task06.logic.LogicException;
-import by.epam.training.task06.logic.LogicHelp;
-import by.epam.training.task06.logic.UrlToCommandMapping;
+import by.epam.training.task06.exception.LogicException;
+import by.epam.training.task06.logic.help.LogicHelp;
+import by.epam.training.task06.logic.help.UrlToCommandMapping;
 import by.epam.training.task06.logic.command.Command;
 import by.epam.training.task06.page.AdminPage;
 import by.epam.training.task06.parameter.FacultyParameter;
 import by.epam.training.task06.parameter.PageParameter;
 import by.epam.training.task06.parameter.UserParameter;
-import by.epam.training.task06.util.daoutil.UserDaoQuery;
+import by.epam.training.task06.constants.query_template.UserDaoQuery;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
@@ -37,7 +37,7 @@ public class AdminSelectFacultyForSelectAbiturient implements Command {
 
         List<User> candidates;
         try {
-            candidates = UserDaoMySQL.getInstance().select(statusAndFacultyNameUserOption);
+            candidates = UserDAO.getInstance().select(statusAndFacultyNameUserOption);
         } catch (DaoException e) {
             throw new LogicException("Users extraction error! Reason - ", e);
         }

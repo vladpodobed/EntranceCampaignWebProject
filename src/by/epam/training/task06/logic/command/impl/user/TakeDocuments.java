@@ -1,12 +1,12 @@
 package by.epam.training.task06.logic.command.impl.user;
 
-import by.epam.training.task06.dao.ConnectionPool;
-import by.epam.training.task06.dao.DaoException;
-import by.epam.training.task06.dao.impl.CertificateDaoMySQL;
-import by.epam.training.task06.dao.impl.UserDaoMySQL;
+import by.epam.training.task06.connection.ConnectionPool;
+import by.epam.training.task06.exception.DaoException;
+import by.epam.training.task06.dao.impl.CertificateDAO;
+import by.epam.training.task06.dao.impl.UserDAO;
 import by.epam.training.task06.entity.Certificate;
 import by.epam.training.task06.entity.User;
-import by.epam.training.task06.logic.LogicException;
+import by.epam.training.task06.exception.LogicException;
 import by.epam.training.task06.logic.command.Command;
 import by.epam.training.task06.page.SharedPage;
 import by.epam.training.task06.parameter.UserParameter;
@@ -32,7 +32,7 @@ public class TakeDocuments implements Command {
         if(user.getCertificates() != null) {
             for (Certificate certificate : user.getCertificates()) {
                 try {
-                    CertificateDaoMySQL.getInstance().delete(certificate.getId());
+                    CertificateDAO.getInstance().delete(certificate.getId());
                 } catch (DaoException e) {
                     throw new LogicException("Can't delete user certificate! Reason - " + e.getMessage());
                 }
@@ -45,7 +45,7 @@ public class TakeDocuments implements Command {
         user.setFacultyId(0);
 
         try {
-            UserDaoMySQL.getInstance().update(user);
+            UserDAO.getInstance().update(user);
         } catch (DaoException e) {
             throw new LogicException("Can't update user info! Reason - " + e.getMessage());
         } finally {

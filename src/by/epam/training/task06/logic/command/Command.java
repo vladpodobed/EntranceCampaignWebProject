@@ -1,6 +1,6 @@
 package by.epam.training.task06.logic.command;
 
-import by.epam.training.task06.logic.LogicException;
+import by.epam.training.task06.exception.LogicException;
 
 import javax.servlet.http.HttpServletRequest;
 

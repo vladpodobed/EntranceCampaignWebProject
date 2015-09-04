@@ -1,21 +1,24 @@
 package by.epam.training.task06.logic.command.impl.user;
 
+import by.epam.training.task06.connection.ConnectionPool;
 import by.epam.training.task06.dao.*;
-import by.epam.training.task06.dao.impl.CertificateDaoMySQL;
-import by.epam.training.task06.dao.impl.DisciplineDaoMySQL;
-import by.epam.training.task06.dao.impl.UserDaoMySQL;
+import by.epam.training.task06.dao.impl.CertificateDAO;
+import by.epam.training.task06.dao.impl.DisciplineDAO;
+import by.epam.training.task06.dao.impl.UserDAO;
+import by.epam.training.task06.dao.query.QueryOption;
 import by.epam.training.task06.entity.Certificate;
 import by.epam.training.task06.entity.Discipline;
 import by.epam.training.task06.entity.User;
-import by.epam.training.task06.logic.LogicException;
-import by.epam.training.task06.logic.UrlToCommandMapping;
+import by.epam.training.task06.exception.DaoException;
+import by.epam.training.task06.exception.LogicException;
+import by.epam.training.task06.logic.help.UrlToCommandMapping;
 import by.epam.training.task06.logic.command.Command;
 import by.epam.training.task06.page.SharedPage;
 import by.epam.training.task06.page.UserPage;
 import by.epam.training.task06.parameter.FacultyParameter;
 import by.epam.training.task06.parameter.PageParameter;
 import by.epam.training.task06.parameter.UserParameter;
-import by.epam.training.task06.util.daoutil.DisciplineDaoQuery;
+import by.epam.training.task06.constants.query_template.DisciplineDaoQuery;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -46,7 +49,7 @@ public class RegisterAtFaculty implements Command {
 
         List<Discipline> facultyDisciplines;
         try {
-            facultyDisciplines = DisciplineDaoMySQL.getInstance().select(disciplinesOption);
+            facultyDisciplines = DisciplineDAO.getInstance().select(disciplinesOption);
         } catch (DaoException e) {
             throw new LogicException("User disciplines extraction error! Reason - ", e);
         }
@@ -105,9 +108,9 @@ public class RegisterAtFaculty implements Command {
         user.setStatus(UserParameter.DOCUMENTS_PROCCESSING_STATUS);
 
         try {
-            UserDaoMySQL.getInstance().update(user);
+            UserDAO.getInstance().update(user);
             for (Certificate certificate : userCertificates) {
-                CertificateDaoMySQL.getInstance().update(certificate);
+                CertificateDAO.getInstance().update(certificate);
             }
         } catch (DaoException e) {
             throw new LogicException("Can't update user info! Reason - " + e.getMessage());
@@ -145,9 +148,9 @@ public class RegisterAtFaculty implements Command {
 
     private Certificate createCertificate(int userId, int disciplineId, int result) throws LogicException {
         Certificate certificate;
-        DaoMySQL<Certificate> dao;
+        DAO<Certificate> dao;
         try {
-            dao = DaoMySQLFactory.getInstance().getDao(DaoMySQLType.CERTIFICATE);
+            dao = DAOFactory.getInstance().getDao(DAOType.CERTIFICATE);
             certificate = new Certificate(userId, disciplineId, result);
             certificate.setId(dao.create(certificate));
         } catch (DaoException e) {

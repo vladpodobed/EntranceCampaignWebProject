@@ -1,10 +1,12 @@
 package by.epam.training.task06.logic.command.impl.user;
 
+import by.epam.training.task06.connection.ConnectionPool;
 import by.epam.training.task06.dao.*;
 import by.epam.training.task06.entity.User;
-import by.epam.training.task06.logic.LogicException;
-import by.epam.training.task06.logic.LogicHelp;
-import by.epam.training.task06.logic.UrlToCommandMapping;
+import by.epam.training.task06.exception.DaoException;
+import by.epam.training.task06.exception.LogicException;
+import by.epam.training.task06.logic.help.LogicHelp;
+import by.epam.training.task06.logic.help.UrlToCommandMapping;
 import by.epam.training.task06.logic.command.Command;
 import by.epam.training.task06.page.SharedPage;
 import by.epam.training.task06.page.UserPage;
@@ -62,9 +64,9 @@ public class SignUpUser implements Command {
      */
     private User createUser(String status, String email, String password, String name) throws LogicException {
         User user;
-        DaoMySQL<User> dao;
+        DAO<User> dao;
         try {
-            dao = DaoMySQLFactory.getInstance().getDao(DaoMySQLType.USER);
+            dao = DAOFactory.getInstance().getDao(DAOType.USER);
             user = new User(status, email, password, name);
             user.setId(dao.create(user));
         } catch (DaoException e) {

@@ -1,7 +1,7 @@
 package by.epam.training.task06.logic.command.impl.page;
 
-import by.epam.training.task06.logic.LogicException;
-import by.epam.training.task06.logic.UrlToCommandMapping;
+import by.epam.training.task06.exception.LogicException;
+import by.epam.training.task06.logic.help.UrlToCommandMapping;
 import by.epam.training.task06.logic.command.Command;
 import by.epam.training.task06.parameter.PageParameter;
 import by.epam.training.task06.parameter.SharedParameter;
